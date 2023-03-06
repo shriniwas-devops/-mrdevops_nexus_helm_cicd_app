@@ -98,4 +98,8 @@ so this is all about the configrtaion between sonarqube and jenkins
  14:-once you will choose this then copy and paste it jenkinsfile where you have wrote 
  
  ![vf](https://user-images.githubusercontent.com/122585172/223038656-20c8b4b5-45e6-4ace-876b-df09826826c9.png)
+ 
+ 
+ 
+ 
 
