@@ -35,7 +35,7 @@ Kubernetes
 ***Stage-01 : Install Jenkins server and installed some plugin like docker pipeline, sonarqube scanner sonarqube  gerit
 
 
-![scprojectdevops1](https://user-images.githubusercontent.com/122585172/223017209-69cfa96f-6d7b-4490-964b-45ebddd8aac2.png)
+
 
 ***Stage-02 : Install Jenkins and start Jenkins***
 Jenkins Installation Prequuisities https://www.jenkins.io/doc/book/installing/linux/
