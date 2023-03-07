@@ -47,7 +47,10 @@ docker installation is here :- https://docs.docker.com/engine/install/ubuntu/
 
 3: Open Jenkins Dashboard and install required plugins – SonarQube Scanner, sonar quality gate, dockerpipeline 
 
-4:-go to manage jenkins > manage pulgins > search for plugins > install without restart
+
+
+
+<!-- 4:-go to manage jenkins > manage pulgins > search for plugins > install without restart
 
 ![cicdproject2](https://user-images.githubusercontent.com/122585172/223018773-9e57409c-e0c8-48d1-b724-7a0e755cad37.png)
 
@@ -97,7 +100,7 @@ so this is all about the configrtaion between sonarqube and jenkins
  
  14:-once you will choose this then copy and paste it jenkinsfile where you have wrote 
  
- ![vf](https://user-images.githubusercontent.com/122585172/223038656-20c8b4b5-45e6-4ace-876b-df09826826c9.png)
+ ![vf](https://user-images.githubusercontent.com/122585172/223038656-20c8b4b5-45e6-4ace-876b-df09826826c9.png) -->
  
  
  
