@@ -130,11 +130,13 @@ datree test <your_kubernetes_manifest_YAML_NAME>
 ![werwt](https://user-images.githubusercontent.com/122585172/223356857-a3d77970-3b1d-459f-9e8b-f45fca3b6185.png)
 
 
+***Done with Installation , Now will we integrate all the tools with Jenkins***
 
 
 
 
-<!-- 5:- After install plugin you have to go manage jenkins and then go configure system provide sonarqube url and some authentication token
+
+ 5:- After install plugin you have to go manage jenkins and then go configure system provide sonarqube url and some authentication token
 
 ![CICDPROJECT3](https://user-images.githubusercontent.com/122585172/223026245-6262786b-4720-453d-817b-47379367ec42.png)
 
