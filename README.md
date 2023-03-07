@@ -32,8 +32,8 @@ Kubernetes
 ***Want to create this Project by your own then Follow these project steps***
 
 ***Step: 1 Installation Part***
-***Stage-01 : Install JDK and Create a Java Springboot application***
-Push all the web application page code file into github
+***Stage-01 : Install Jenkins server and installed some plugin like docker pipeline, sonarqube scanner sonarqube  gerit
+
 
 ![scprojectdevops1](https://user-images.githubusercontent.com/122585172/223017209-69cfa96f-6d7b-4490-964b-45ebddd8aac2.png)
 
