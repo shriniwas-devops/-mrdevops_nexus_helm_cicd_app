@@ -102,6 +102,31 @@ for this you can follow link:- https://www.youtube.com/watch?v=o6bxo0Oeg6o
 ![asd](https://user-images.githubusercontent.com/122585172/223350832-30e41a03-881c-4d7c-99a6-6a6a03e7cf17.png)
 
 
+***step 05:- Docker installtion***
+
+https://docs.docker.com/engine/install/ubuntu/
+
+
+***step 06:- Helm charts installtion***
+
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
+
+chmod 700 get_helm.sh
+
+./get_helm.sh
+
+![qwe](https://user-images.githubusercontent.com/122585172/223353379-cdf3268a-192d-41da-8cc5-1226bc5b2cca.png)
+
+
+***step 07:- datree.io installtion***
+
+curl https://get.datree.io | /bin/bash
+datree version
+datree test <your_kubernetes_manifest_YAML_NAME>
+
+
+
+
 
 
 
