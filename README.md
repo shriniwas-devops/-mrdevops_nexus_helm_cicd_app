@@ -40,6 +40,11 @@ Kubernetes
 ***Stage-02 : Install Jenkins and start Jenkins***
 Jenkins Installation Prequuisities https://www.jenkins.io/doc/book/installing/linux/
 
+***Push all the web application page code file into github ***
+
+![scprojectdevops1](https://user-images.githubusercontent.com/122585172/223335072-ce7e3e89-38c8-405f-a2f7-0d46cbf86ba4.png)
+
+
 1:Installation guide is available here:- https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
 docker installation is here :- https://docs.docker.com/engine/install/ubuntu/ 
 
@@ -47,14 +52,29 @@ docker installation is here :- https://docs.docker.com/engine/install/ubuntu/
 
 3: Open Jenkins Dashboard and install required plugins – SonarQube Scanner, sonar quality gate, dockerpipeline 
 
-
-
-
-
-
  4:-go to manage jenkins > manage pulgins > search for plugins > install without restart
 
 ![cicdproject2](https://user-images.githubusercontent.com/122585172/223018773-9e57409c-e0c8-48d1-b724-7a0e755cad37.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- 5:- After install plugin you have to go manage jenkins and then go configure system provide sonarqube url and some authentication token
 
