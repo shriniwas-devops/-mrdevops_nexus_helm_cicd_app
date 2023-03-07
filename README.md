@@ -124,7 +124,7 @@ curl https://get.datree.io | /bin/bash
 datree version
 datree test <your_kubernetes_manifest_YAML_NAME>
 
-
+![olp](https://user-images.githubusercontent.com/122585172/223354911-e2387456-11a3-44e3-8ca4-845192ccd077.png)
 
 
 
