@@ -31,13 +31,13 @@ Kubernetes
 
 ***Want to create this Project by your own then Follow these project steps***
 
-***Step: 1 Installation Part***
+*** Installation Part***
 ***Stage-01 : Install Jenkins server and installed some plugin like docker pipeline, sonarqube scanner sonarqube  gerit
 
 
 
 
-***Stage-02 : Install Jenkins and start Jenkins***
+***Stage-01 : Install Jenkins and start Jenkins***
 Jenkins Installation Prequuisities https://www.jenkins.io/doc/book/installing/linux/
 
 ***Push all the web application page code file into github ***
@@ -56,7 +56,7 @@ docker installation is here :- https://docs.docker.com/engine/install/ubuntu/
 
 ![cicdproject2](https://user-images.githubusercontent.com/122585172/223018773-9e57409c-e0c8-48d1-b724-7a0e755cad37.png)
 
-***step 2:-SonarQube Server Installation***
+***step 02:-SonarQube Server Installation***
 
 Instead of whole step  follow installtion of sonarqube what you will do you will  do use sonarqube image in dockerhub registory.
 
@@ -64,6 +64,34 @@ Instead of whole step  follow installtion of sonarqube what you will do you will
   for sonarqube server you will long configration you much do  database and all in order install sonarqube so for the easy way what you will doing you will donig docker conatiner for the sonarqube access.
   
   ![we](https://user-images.githubusercontent.com/122585172/223341913-b74124be-9075-4619-899a-2f01eb85c167.png)
+
+***step 03:- Nexus Repository installtion
+for nexus you can follow this:-
+
+apt-get update -y
+
+echo "Install Java"
+apt-get install openjdk-8-jdk -y
+java -version
+
+echo "Install Nexus"
+useradd -M -d /opt/nexus -s /bin/bash -r nexus
+echo "nexus ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/nexus
+mkdir /opt/nexus
+wget https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/3/nexus-3.29.2-02-unix.tar.gz
+tar xzf nexus-3.29.2-02-unix.tar.gz -C /opt/nexus --strip-components=1
+chown -R nexus:nexus /opt/nexus
+
+nano /opt/nexus/bin/nexus.vmoptions
+vi /opt/nexus/bin/nexus.rc
+you can put nexus as a user
+
+for start nexus you will do
+sudo -u nexus /opt/nexus/bin/nexus start
+
+![tytr](https://user-images.githubusercontent.com/122585172/223345481-e18df0ad-4649-4128-b744-53ecf16dbae6.png)
+
+
 
 
 
