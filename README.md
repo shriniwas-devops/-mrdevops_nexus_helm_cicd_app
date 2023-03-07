@@ -50,11 +50,13 @@ docker installation is here :- https://docs.docker.com/engine/install/ubuntu/
 
 
 
-<!-- 4:-go to manage jenkins > manage pulgins > search for plugins > install without restart
+
+
+ 4:-go to manage jenkins > manage pulgins > search for plugins > install without restart
 
 ![cicdproject2](https://user-images.githubusercontent.com/122585172/223018773-9e57409c-e0c8-48d1-b724-7a0e755cad37.png)
 
-5:- After install plugin you have to go manage jenkins and then go configure system provide sonarqube url and some authentication token
+<!-- 5:- After install plugin you have to go manage jenkins and then go configure system provide sonarqube url and some authentication token
 
 ![CICDPROJECT3](https://user-images.githubusercontent.com/122585172/223026245-6262786b-4720-453d-817b-47379367ec42.png)
 
@@ -106,3 +108,4 @@ so this is all about the configrtaion between sonarqube and jenkins
  
  
 
+ 
