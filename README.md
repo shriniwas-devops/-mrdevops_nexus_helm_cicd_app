@@ -56,7 +56,14 @@ docker installation is here :- https://docs.docker.com/engine/install/ubuntu/
 
 ![cicdproject2](https://user-images.githubusercontent.com/122585172/223018773-9e57409c-e0c8-48d1-b724-7a0e755cad37.png)
 
+***step 2:-SonarQube Server Installation***
 
+Instead of whole step  follow installtion of sonarqube what you will do you will  do use sonarqube image in dockerhub registory.
+
+  ***docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube*** 
+  for sonarqube server you will long configration you much do  database and all in order install sonarqube so for the easy way what you will doing you will donig docker conatiner for the sonarqube access.
+  
+  ![we](https://user-images.githubusercontent.com/122585172/223341913-b74124be-9075-4619-899a-2f01eb85c167.png)
 
 
 
