@@ -94,13 +94,7 @@ sudo -u nexus /opt/nexus/bin/nexus start
 ***step 04:- you must  do server setup master(k8s) and worknode(k8s) for kubernetes***
 for this you can follow link:- https://www.youtube.com/watch?v=o6bxo0Oeg6o
 
-![vbvcn](https://user-images.githubusercontent.com/122585172/223349638-948e55ee-f8c6-4bea-aa45-47e1e38f3699.png
-
-
-
-
-
-
+![vbvcn](https://user-images.githubusercontent.com/122585172/223349891-f3709a38-0c65-4b4c-9d14-436253d35306.png)
 
 
 
