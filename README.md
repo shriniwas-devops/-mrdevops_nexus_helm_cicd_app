@@ -177,8 +177,9 @@ so this is all about the configrtaion between sonarqube and jenkins
 ![io](https://user-images.githubusercontent.com/122585172/223033540-f46ba23d-4f06-46b1-9378-11c1ee05645e.png)
 
 13:- you just have to genrate some pipeline script, you have just hit on sonarqubeEnv and then  you have to select  the authentication which you have configure write token  and genrate script
+![gfj](https://user-images.githubusercontent.com/122585172/223623999-ebe1d372-a4f0-4b3f-b26c-5f978bf7d848.png)
 
-![ol](https://user-images.githubusercontent.com/122585172/223035743-25210541-37d7-4b0e-8186-8d1b2be10cbc.png)
+
  
  14:-once you will choose this then copy and paste it jenkinsfile where you have wrote 
  
@@ -186,9 +187,11 @@ so this is all about the configrtaion between sonarqube and jenkins
  
 15:-Configure nexus server in jenkins server
 
-
- 
- 
 ![TYR](https://user-images.githubusercontent.com/122585172/223622821-26be6a61-444f-4d29-b91c-e291a2e1fdea.png)
 
+16:- configration mail server in jenkins
+first thing you have to do ,you have installed email extension 
+
+
  
+![gfj](https://user-images.githubusercontent.com/122585172/223624041-d6ec387b-51f0-4bd6-9516-572df5fd1b39.png)
