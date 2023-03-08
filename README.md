@@ -184,8 +184,11 @@ so this is all about the configrtaion between sonarqube and jenkins
  
  ![vf](https://user-images.githubusercontent.com/122585172/223038656-20c8b4b5-45e6-4ace-876b-df09826826c9.png) -->
  
+15:-Configure nexus server in jenkins server
+
+
  
  
- 
+![TYR](https://user-images.githubusercontent.com/122585172/223622821-26be6a61-444f-4d29-b91c-e291a2e1fdea.png)
 
  
