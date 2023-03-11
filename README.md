@@ -222,4 +222,9 @@ STAGE 2:- Define Stage as a Quality Gate stage
 
 ![qew](https://user-images.githubusercontent.com/122585172/224467183-e9e97080-7865-4c64-9691-a66acd616610.png)
 
+4:- so lets add the command  so that it can compile or it can run the docker file and create image for us.
+so i will use here multi line shell script
 
+
+
+![ik](https://user-images.githubusercontent.com/122585172/224467565-d4016a14-a1fb-4766-a2cd-9155aaa4d9f2.png)
