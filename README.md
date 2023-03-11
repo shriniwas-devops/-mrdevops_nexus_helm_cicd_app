@@ -212,15 +212,13 @@ STAGE 2:- Define Stage as a Quality Gate stage
 
 
 ***STAGE 2:- Docker Bulid & Docker Push to Nexus Repo*** 
-1:-What  is our next stage , our next stage is we will do docker build and push to which repo nexus repo right
-2:- so I will not using any public repository here to store my docker images , so i will using my private hosted repository where i will creating  my repo and i will expose some ports so that all we will see here
-3:- so now what are the setup you have to do in order to achive this thing so how will you do that ?
-4: so for docker build you need what , you need a docker file so lets create a docker file so that we can compile our code
+***1:-What  is our next stage , our next stage is we will do docker build and push to which repo nexus repo right***
+***2:- so I will not using any public repository here to store my docker images , so i will using my private hosted repository where i will creating  my repo and i will expose some ports so that all we will see here***
+***3:- so now what are the setup you have to do in order to achive this thing so how will you do that ?***
+***so for docker build you need what , you need a docker file so lets create a docker file so that we can compile our code***
 
 ***Docker file***
-so it's docker file basically multistage docker file so in the first we will compile the code and get the artifact and in the next we will copying the artifact
-
-
+***it's docker file basically multistage docker file so in the first we will compile the code and get the artifact and in the next we will copying the artifact***
 
 ![qew](https://user-images.githubusercontent.com/122585172/224467183-e9e97080-7865-4c64-9691-a66acd616610.png)
 
