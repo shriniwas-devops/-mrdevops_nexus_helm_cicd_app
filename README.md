@@ -202,10 +202,26 @@ first thing you have to do ,you have installed email extension and then configur
 
 General Jenkins declarative Pipeline Syntax
 
-stage 1:- Define stage as a quality gate stage
+STAGE 2:- Define Stage as a Quality Gate stage
 1:-I did not  do any kind of  maven installation are configration realted to maven why because let say example jenkins is used for multipal teams to deploy their application ,they want differnt differnt version of maven  so thats why i don't want to install it so whenever they wanted in the jenkins host  docker is inatlled , they can use docker as a agent anfd they can run their port
 
 2:- genrated pipeline script for withsonarqualityenv
 3:- once this is done what i  need to is i will gonna sh and i will give a permission sh 'chmod 777 maven' file agin what one more command i want to exute this which is sh './maven sonarqube' which help me pushing the code to sonarqube so their we will gonna check and  validate  aginest the sonarqube 
 
 ![gfhyj](https://user-images.githubusercontent.com/122585172/223633732-e864c480-5648-4fae-b233-f1d7c2e547d5.png)
+
+
+***STAGE 2:- Docker Bulid & Docker Push to Nexus Repo*** 
+1:-What  is our next stage , our next stage is we will do docker build and push to which repo nexus repo right
+2:- so I will not using any public repository here to store my docker images , so i will using my private hosted repository where i will creating  my repo and i will expose some ports so that all we will see here
+3:- so now what are the setup you have to do in order to achive this thing so how will you do that ?
+4: so for docker build you need what , you need a docker file so lets create a docker file so that we can compile our code
+
+***Docker file***
+so it's docker file basically multistage docker file so in the first we will compile the code and get the artifact and in the next we will copying the artifact
+
+
+
+![qew](https://user-images.githubusercontent.com/122585172/224467183-e9e97080-7865-4c64-9691-a66acd616610.png)
+
+
