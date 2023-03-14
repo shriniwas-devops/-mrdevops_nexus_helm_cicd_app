@@ -245,7 +245,14 @@ so i will use here multi line shell script
 
 ![ads](https://user-images.githubusercontent.com/122585172/224885793-6147181a-45f6-4bd8-96cd-610c3a28b6be.png)
 
-
-
-
 ![dfs](https://user-images.githubusercontent.com/122585172/224885819-f9ff28cd-5fb7-4251-a03c-55820b0d9f92.png)
+
+***STAGE 4: pushing the helm charts to nexus***
+1: i will gonna copy api so which push my helm charts on to the nexus.
+     curl -u admin:$docker_password http://34.125.214.226:8081/repository/helm-hosted/ --upload-file myapp-${helmversion}.tgz -v
+ 2:- i will put docker pasword and nexus machine ip thats all
+ 3: once this is done the repository helm hosted make sure that whether your repository name itself or not
+ 4:- so now what we can do is we can version our file properly before pushing it so versioning what i  do is 
+ 
+ 
+ 
