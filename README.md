@@ -229,9 +229,10 @@ so i will use here multi line shell script
 
 ![ik](https://user-images.githubusercontent.com/122585172/224467565-d4016a14-a1fb-4766-a2cd-9155aaa4d9f2.png)
 
+***once your email configration is done ,you will be adding post block here means either is falied or sucessed this blog should always run.***
 
+***STAGE 3:- indentifying misconfigs using datree in helm charts ***
+1:- I want to go inside the kubernetes directory and then i want to excute the command in that case i have one step template  which is like lets go to snippet genrator 
 
-
-
-
+![gffg](https://user-images.githubusercontent.com/122585172/224882657-dc1ea7ce-3ff8-4cd4-bd1a-ebad4351b941.png)
 
