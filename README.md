@@ -226,6 +226,7 @@ STAGE 2:- Define Stage as a Quality Gate stage
 so i will use here multi line shell script
 
 
+![ads](https://user-images.githubusercontent.com/122585172/224885767-d634d279-b28a-458a-b61b-62815cd888f5.png)
 
 ![ik](https://user-images.githubusercontent.com/122585172/224467565-d4016a14-a1fb-4766-a2cd-9155aaa4d9f2.png)
 
@@ -236,3 +237,15 @@ so i will use here multi line shell script
 
 ![gffg](https://user-images.githubusercontent.com/122585172/224882657-dc1ea7ce-3ff8-4cd4-bd1a-ebad4351b941.png)
 
+2: and also verify to my helm charts aginest a datree rules so datree will hav e default rule so like a few enbaled and disbaled rules so first we will gonna excute the command and we will see what kinds of rules is enabled and in my helm charts which rules  are voileted. 
+3:- we will going to add the command to my check helm charts whether all the rules in datree like verifyed or weither it will voileted
+4: for that i will use datrre.io documnetaion and now take this command 
+5: for check wether my helm charts work propely or not.
+
+
+![ads](https://user-images.githubusercontent.com/122585172/224885793-6147181a-45f6-4bd8-96cd-610c3a28b6be.png)
+
+
+
+
+![dfs](https://user-images.githubusercontent.com/122585172/224885819-f9ff28cd-5fb7-4251-a03c-55820b0d9f92.png)
