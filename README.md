@@ -32,7 +32,7 @@ Kubernetes
 ***Want to create this Project by your own then Follow these project steps***
 
 *** Installation Part***
-***Stage-01 : Install Jenkins server and installed some plugin like docker pipeline, sonarqube scanner sonarqube  gerit
+***Stage-01 : Install Jenkins server and installed some plugin like docker pipeline, sonarqube scanner sonarqube  gerit , k8s continous deploy plugin 
 
 
 
@@ -197,6 +197,9 @@ first thing you have to do ,you have installed email extension and then configur
 17:- also which ever the mail you use for authentication in that mail setting "Less secure apps access" should be enabled
 
 ![jhk](https://user-images.githubusercontent.com/122585172/223624942-7b19c722-f85f-423c-846b-f437d426a878.png)
+
+18:- connect k8s with jenkins
+![ythyt](https://user-images.githubusercontent.com/122585172/227117803-49e55efe-c77f-49eb-ad2b-f3ebbff7111c.png)
 
 ***We integrated all the tools with Jenkins, Now Create a declarative jenkins pipeline for each stage.***
 
