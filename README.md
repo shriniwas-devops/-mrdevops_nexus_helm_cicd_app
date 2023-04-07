@@ -276,16 +276,46 @@ and now next thing i want to send email which will have a build link also when t
 
 I will create a another stage block which is verifying app deployment so see this is because once helm charts is done i want to verifying my application so that's why i am adding this so i added two stages on eis manual approval before the deployment and after the deployment I want  to verify my application is whether running or not ? so if exit when it executes if the exit status is 0 thats means it will gonna successfully rcome out of the stage and it will send success mail and if it's not working so the exit status will be non zero value it will gonna failed my pipleine so that is the logic here .
 
-***Now staging is done coming to output***
-
-
-
-
-
-
- 
- 
   ![DEPLOYK8S](https://user-images.githubusercontent.com/122585172/230598020-fc75b629-2319-49b6-8072-58541022846b.png)
+
+
+Final outputs of this Project
+
+Jenkins Output :
+
+![devopsout](https://user-images.githubusercontent.com/122585172/230606025-983fd20c-cf74-43b0-8a62-2d3f21bff180.png)
+
+Sonarqube Output:
+
+![dsf](https://user-images.githubusercontent.com/122585172/230606378-5d5c5686-55c4-4a55-80c2-6de24c609f65.png)
+
+Quality Gate Status in Jenkins:
+
+![dsfgd](https://user-images.githubusercontent.com/122585172/230608358-88f5b67c-bf76-4fca-9c86-945f25efeba5.png)
+
+Images in NexusRepository  pushed by jenkins:
+
+![fgbhj](https://user-images.githubusercontent.com/122585172/230609469-103e7258-36ab-4dd6-b408-8c6f6f6000da.png)
+
+pushing the helm charts to nexus outpt:
+
+![reytreyrty](https://user-images.githubusercontent.com/122585172/230610608-e43d0d64-d644-471b-bd83-bc7d6c2b94bf.png)
+
+Manual approval for Email output:
+
+![gdhffhgf](https://user-images.githubusercontent.com/122585172/230610971-f6979542-15d3-4b27-80af-4d3b614ef53e.png)
+
+Deploying application on k8s cluster output:
+
+![reytry](https://user-images.githubusercontent.com/122585172/230611450-e6a793d2-ab99-497c-87f6-668aabf38843.png)
+
+Application output deployed in k8s:
+
+![gfhgfghf](https://user-images.githubusercontent.com/122585172/230611635-e899681d-026e-44c0-ae48-0698fcb2f1d6.png)
+
+
+
+
   
   
   
