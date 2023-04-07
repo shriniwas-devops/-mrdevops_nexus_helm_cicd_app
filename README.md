@@ -261,15 +261,10 @@ so i will use here multi line shell script
  
  ***SATAGE 5: Deploying Application on  K8s cluster***
  Once push  is done we need to deploy helm charts into k8s cluster so thats means were deploying k8s manifest file on to the k8s cluster so for that what we need to do is we need to do few thing one as from the jenkins host i need to connect my k8s cluster other thing is in the k8s cluster I want to pull the images in my private repository so for we need to do few configration and also plugin also we need to install and also in the configration time you need to install kubectl in jenkins host
- and on  more thing in k8s cluster  for that what you need to do is go to k8s master and login in master and go to .kube folder of our users home directory and trhen cat config file this config file that we  required connect k8s cluster and after copy put in jenkins host***
- 
- 
- 
- 
-
+ and on  more thing in k8s cluster  for that what you need to do is go to k8s master and login in master and go to .kube folder of our users home directory and trhen cat config file this config file that we  required connect k8s cluster and after copy put in jenkins***
 
  
  
- 
- 
+  ![DEPLOYK8S](https://user-images.githubusercontent.com/122585172/230598020-fc75b629-2319-49b6-8072-58541022846b.png)
+
  
