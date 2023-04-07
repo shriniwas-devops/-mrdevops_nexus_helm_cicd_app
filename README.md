@@ -259,12 +259,36 @@ so i will use here multi line shell script
  3: once this is done the repository helm hosted make sure that whether your repository name itself or not
  4:- so now what we can do is we can version our file properly before pushing it so versioning what i  do is 
  
- ***SATAGE 5: Deploying Application on  K8s cluster***
+ ***STAGE 5: Deploying Application on  K8s cluster***
  ***Once push  is done we need to deploy helm charts into k8s cluster so thats means were deploying k8s manifest file on to the k8s cluster so for that what we need to do is we need to do few thing one as from the jenkins host i need to connect my k8s cluster other thing is in the k8s cluster I want to pull the images in my private repository so for we need to do few configration and also plugin also we need to install and also in the configration time you need to install kubectl in jenkins host
- and on  more thing in k8s cluster  for that what you need to do is go to k8s master and login in master and go to .kube folder of our users home directory and trhen cat config file this config file that we  required connect k8s cluster and after copy put in jenkins***
+ and on  more thing in k8s cluster  for that what you need to do is go to k8s master and login in master and go to .kube folder of our users home directory and taken  cat config file this config file that we  required connect k8s cluster and after copy put in jenkins***
+
+The next stage would be after the deployment I want to Verify whether my application is coming up or not those are the two stages I want to added in my pipeline .
+Once approval is done then only it has  to be deployed.
+Before deployment i want to add manual approval  part.
+
+***STAGE 6: Manual Approval***
+I want to give little  time kind of as soon as I send a request , They might be not approved , and also I don't want to wait for long time for example i want to give 10 minute of time limit were an like   with in that they want to approval for that i can do snippet genrator where search like timeout and take it , put it your code
+10 minutes time for the approvers to approve this particular deployment if they don't approved it will be abort it.
+and now next thing i want to send email which will have a build link also when they open that build link they should be able to approve the request.
+
+***STAGE 7: Verifying App Deployment ***
+
+I will create a another stage block which is verifying app deployment so see this is because once helm charts is done i want to verifying my application so that's why i am adding this so i added two stages on eis manual approval before the deployment and after the deployment I want  to verify my application is whether running or not ? so if exit when it executes if the exit status is 0 thats means it will gonna successfully rcome out of the stage and it will send success mail and if it's not working so the exit status will be non zero value it will gonna failed my pipleine so that is the logic here .
+
+***Now staging is done coming to output***
+
+
+
+
+
 
  
  
   ![DEPLOYK8S](https://user-images.githubusercontent.com/122585172/230598020-fc75b629-2319-49b6-8072-58541022846b.png)
+  
+  
+  
+  
 
  
