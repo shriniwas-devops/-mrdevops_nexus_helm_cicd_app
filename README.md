@@ -225,7 +225,7 @@ first thing you have to do ,you have installed email extension and then configur
 
 ![ythyt](https://user-images.githubusercontent.com/122585172/227117803-49e55efe-c77f-49eb-ad2b-f3ebbff7111c.png)
 
-***We integrated all the tools with Jenkins, Now Create a declarative jenkins pipeline for each stage.***
+We integrated all the tools with Jenkins, Now Create a declarative jenkins pipeline for each stage.
 
 General Jenkins declarative Pipeline Syntax
 
@@ -234,6 +234,7 @@ STAGE 2:- Define Stage as a Quality Gate stage
 1:-I did not  do any kind of  maven installation are configration realted to maven why because let say example jenkins is used for multipal teams to deploy their application ,they want differnt differnt version of maven  so thats why i don't want to install it so whenever they wanted in the jenkins host  docker is inatlled , they can use docker as a agent anfd they can run their port
 
 2:- genrated pipeline script for withsonarqualityenv
+
 3:- once this is done what i  need to is i will gonna sh and i will give a permission sh 'chmod 777 maven' file agin what one more command i want to exute this which is sh './maven sonarqube' which help me pushing the code to sonarqube so their we will gonna check and  validate  aginest the sonarqube 
 
 ![gfhyj](https://user-images.githubusercontent.com/122585172/223633732-e864c480-5648-4fae-b233-f1d7c2e547d5.png)
@@ -264,7 +265,7 @@ so i will use here multi line shell script
 
 ![ik](https://user-images.githubusercontent.com/122585172/224467565-d4016a14-a1fb-4766-a2cd-9155aaa4d9f2.png)
 
-***once your email configration is done ,you will be adding post block here means either is falied or sucessed this blog should always run.***
+once your email configration is done ,you will be adding post block here means either is falied or sucessed this blog should always run.
 
 STAGE 3:- indentifying misconfigs using datree in helm charts 
 
