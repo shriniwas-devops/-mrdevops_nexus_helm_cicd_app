@@ -148,7 +148,8 @@ datree test <your_kubernetes_manifest_YAML_NAME>
 
  5:- After install plugin you have to go manage jenkins and then go configure system provide sonarqube url and some authentication token
 
-![CICDPROJECT3](https://user-images.githubusercontent.com/122585172/223026245-6262786b-4720-453d-817b-47379367ec42.png)
+
+![12 04 2023_17 45 02_REC](https://user-images.githubusercontent.com/122585172/231454156-84afe935-6768-4f62-8b47-ef5d9c1abd62.png)
 
 6:- Here you have add the authentication token just click on that
 
