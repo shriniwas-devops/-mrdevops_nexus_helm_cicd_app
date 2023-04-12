@@ -308,7 +308,7 @@ Manual approval for Email output:
 
 ![gdhffhgf](https://user-images.githubusercontent.com/122585172/230610971-f6979542-15d3-4b27-80af-4d3b614ef53e.png)
 
-Deploying application on k8s cluster output:
+Deploying application on k8s cluster output:V
 
 ![reytry](https://user-images.githubusercontent.com/122585172/230611450-e6a793d2-ab99-497c-87f6-668aabf38843.png)
 
