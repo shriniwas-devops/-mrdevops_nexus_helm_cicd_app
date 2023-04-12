@@ -1,18 +1,19 @@
-***DevOps-Project***
+DevOps-Project
 
-In this project, I created an end-to-end CI/CD pipeline while keeping in mind Securities Best Practices, DevSecOps principles and used all these tools Git, GitHub , Jenkins,Maven, Junit, SonarQube, Docker, Trivy, AWS S3, Docker Hub, Kubernetes Nexus Repository, Helm charts, Datree.io  to achive the goal.
+In this project, I created an end-to-end CI/CD pipeline  used all these tools Git, GitHub , Jenkins,Maven, SonarQube, Docker, AWS S3, Docker Hub, Kubernetes Nexus Repository, Helm charts, Datree.io  to achive the goal.
 
-***Project Architecture***
+Project Architecture
 
 <img width="16384" alt="SHRINIWAS DEVOPS  MEGA REAL TIME CICD PIPELINE PROJECT (2)" src="https://user-images.githubusercontent.com/122585172/223016565-173d4f9b-d822-42f6-a461-8bf993ee9a2c.png">
 
 
-***CI/CD PIPELINE WORKFLOW***
+CI/CD PIPELINE WORKFLOW
 
 <img width="8936" alt="hfg" src="https://user-images.githubusercontent.com/122585172/223016691-40826d3a-0884-4801-a75e-d00102664495.png">
 
 
-***PreRequisites***
+PreRequisites
+
 JDK
 Git
 Github
@@ -29,20 +30,21 @@ Minikube & Kubectl
 Kubernetes
 
 
-***Want to create this Project by your own then Follow these project steps***
+Want to create this Project by your own then Follow these project steps
 
 
 
-*** Installation Part***
-***Stage-01 : Install Jenkins server and installed some plugin like docker pipeline, sonarqube scanner sonarqube  gerit , k8s continous deploy plugin 
+ Installation Part
+Stage-01 : Install Jenkins server and installed some plugin like docker pipeline, sonarqube scanner sonarqube  gerit , k8s continous deploy plugin 
 
 
 
 
-***Stage-01 : Install Jenkins and start Jenkins***
+Stage-01 : Install Jenkins and start Jenkins
+
 Jenkins Installation Prequuisities https://www.jenkins.io/doc/book/installing/linux/
 
-***Push all the web application page code file into github ***
+Push all the web application page code file into github 
 
 ![scprojectdevops1](https://user-images.githubusercontent.com/122585172/223335072-ce7e3e89-38c8-405f-a2f7-0d46cbf86ba4.png)
 
@@ -59,18 +61,18 @@ docker installation is here :- https://docs.docker.com/engine/install/ubuntu/
 
 ![12 04 2023_17 13 09_REC](https://user-images.githubusercontent.com/122585172/231446875-4d984f89-f7ad-4673-812e-ef1c7da8987c.png)
 
-***step 02:-SonarQube Server Installation***
+step 02:-SonarQube Server Installation
 
 
 Instead of whole step  follow installtion of sonarqube what you will do you will  do use sonarqube image in dockerhub registory.
 
-  ***docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube*** 
+  docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube 
   for sonarqube server you will long configration you much do  database and all in order install sonarqube so for the easy way what you will doing you will donig docker conatiner for the sonarqube access.
   
   
 ![12 04 2023_17 15 22_REC](https://user-images.githubusercontent.com/122585172/231447745-cbb5351f-4467-49be-8927-4ecf25a55df6.png)
 
-***step 03:- Nexus Repository installtion
+step 03:- Nexus Repository installtion
 for nexus you can follow this:-
 
 apt-get update -y
@@ -98,24 +100,23 @@ sudo -u nexus /opt/nexus/bin/nexus start
 ![12 04 2023_17 20 40_REC](https://user-images.githubusercontent.com/122585172/231448731-7d0d105c-da12-4da7-a38d-a59deabbd9d3.png)
 
 
-***step 04:- you must  do server setup master(k8s) and worknode(k8s) for kubernetes***
+step 04:- you must  do server setup master(k8s) and worknode(k8s) for kubernetes
 for this you can follow link:- https://www.youtube.com/watch?v=o6bxo0Oeg6o
 
 
 
 ![12 04 2023_17 26 35_REC](https://user-images.githubusercontent.com/122585172/231449983-8edf3176-1b32-4515-911b-2240d30a9a98.png)
 
-***step 04: Make sure you must have dockerhub account for finding conatiner images .
+step 04: Make sure you must have dockerhub account for finding conatiner images .
 
 ![asd](https://user-images.githubusercontent.com/122585172/223350832-30e41a03-881c-4d7c-99a6-6a6a03e7cf17.png)
 
-
-***step 05:- Docker installtion***
+step 05:- Docker installtion
 
 https://docs.docker.com/engine/install/ubuntu/
 
 
-***step 06:- Helm charts installtion***
+step 06:- Helm charts installtion
 
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
 
@@ -127,7 +128,7 @@ chmod 700 get_helm.sh
 ![12 04 2023_17 32 58_REC](https://user-images.githubusercontent.com/122585172/231451506-8cacc7c4-b78f-483e-9a28-5c7cd8c03acd.png)
 
 
-***step 07:- datree.io installtion***
+step 07:- datree.io installtion
 
 curl https://get.datree.io | /bin/bash
 datree version
@@ -135,12 +136,12 @@ datree test <your_kubernetes_manifest_YAML_NAME>
 
 
 
-***datree.io dashbord***
+datree.io dashbord
 
 
 ![12 04 2023_17 37 02_REC](https://user-images.githubusercontent.com/122585172/231452898-889949db-3de8-4c37-b16d-95120dd10bea.png)
 
-***Done with Installation , Now will we integrate all the tools with Jenkins***
+Done with Installation , Now will we integrate all the tools with Jenkins
 
 
 
@@ -210,6 +211,7 @@ so this is all about the configrtaion between sonarqube and jenkins
 
 
 16:- configration mail server in jenkins
+
 first thing you have to do ,you have installed email extension and then configure your email extension
 
 ![tryry](https://user-images.githubusercontent.com/122585172/231349469-38374a38-223a-4c29-a871-9f5b1f31d076.png)
@@ -220,6 +222,7 @@ first thing you have to do ,you have installed email extension and then configur
 ![jhk](https://user-images.githubusercontent.com/122585172/223624942-7b19c722-f85f-423c-846b-f437d426a878.png)
 
 18:- connect k8s with jenkins
+
 ![ythyt](https://user-images.githubusercontent.com/122585172/227117803-49e55efe-c77f-49eb-ad2b-f3ebbff7111c.png)
 
 ***We integrated all the tools with Jenkins, Now Create a declarative jenkins pipeline for each stage.***
@@ -227,6 +230,7 @@ first thing you have to do ,you have installed email extension and then configur
 General Jenkins declarative Pipeline Syntax
 
 STAGE 2:- Define Stage as a Quality Gate stage
+
 1:-I did not  do any kind of  maven installation are configration realted to maven why because let say example jenkins is used for multipal teams to deploy their application ,they want differnt differnt version of maven  so thats why i don't want to install it so whenever they wanted in the jenkins host  docker is inatlled , they can use docker as a agent anfd they can run their port
 
 2:- genrated pipeline script for withsonarqualityenv
@@ -235,18 +239,24 @@ STAGE 2:- Define Stage as a Quality Gate stage
 ![gfhyj](https://user-images.githubusercontent.com/122585172/223633732-e864c480-5648-4fae-b233-f1d7c2e547d5.png)
 
 
-***STAGE 2:- Docker Bulid & Docker Push to Nexus Repo*** 
-***1:-What  is our next stage , our next stage is we will do docker build and push to which repo nexus repo right***
-***2:- so I will not using any public repository here to store my docker images , so i will using my private hosted repository where i will creating  my repo and i will expose some ports so that all we will see here***
-***3:- so now what are the setup you have to do in order to achive this thing so how will you do that ?***
-***so for docker build you need what , you need a docker file so lets create a docker file so that we can compile our code***
+STAGE 2:- Docker Bulid & Docker Push to Nexus Repo
 
-***Docker file***
-***it's docker file basically multistage docker file so in the first we will compile the code and get the artifact and in the next we will copying the artifact***
+1:-What  is our next stage , our next stage is we will do docker build and push to which repo nexus repo right
+
+2:- so I will not using any public repository here to store my docker images , so i will using my private hosted repository where i will creating  my repo and i will expose some ports so that all we will see here
+
+3:- so now what are the setup you have to do in order to achive this thing so how will you do that ?
+
+so for docker build you need what , you need a docker file so lets create a docker file so that we can compile our code
+
+Docker file
+
+it's docker file basically multistage docker file so in the first we will compile the code and get the artifact and in the next we will copying the artifact
 
 ![qew](https://user-images.githubusercontent.com/122585172/224467183-e9e97080-7865-4c64-9691-a66acd616610.png)
 
 4:- so lets add the command  so that it can compile or it can run the docker file and create image for us.
+
 so i will use here multi line shell script
 
 
@@ -256,14 +266,20 @@ so i will use here multi line shell script
 
 ***once your email configration is done ,you will be adding post block here means either is falied or sucessed this blog should always run.***
 
-***STAGE 3:- indentifying misconfigs using datree in helm charts ***
+STAGE 3:- indentifying misconfigs using datree in helm charts 
+
 1:- I want to go inside the kubernetes directory and then i want to excute the command in that case i have one step template  which is like lets go to snippet genrator 
 
 ![gffg](https://user-images.githubusercontent.com/122585172/224882657-dc1ea7ce-3ff8-4cd4-bd1a-ebad4351b941.png)
 
-2: and also verify to my helm charts aginest a datree rules so datree will hav e default rule so like a few enbaled and disbaled rules so first we will gonna excute the command and we will see what kinds of rules is enabled and in my helm charts which rules  are voileted. 
+2: and also verify to my helm charts aginest a datree rules so datree will hav e default rule so like a few enbaled and disbaled rules so first we will gonna excute 
+
+the command and we will see what kinds of rules is enabled and in my helm charts which rules  are voileted. 
+
 3:- we will going to add the command to my check helm charts whether all the rules in datree like verifyed or weither it will voileted
+
 4: for that i will use datrre.io documnetaion and now take this command 
+
 5: for check wether my helm charts work propely or not.
 
 
@@ -271,27 +287,35 @@ so i will use here multi line shell script
 
 ![dfs](https://user-images.githubusercontent.com/122585172/224885819-f9ff28cd-5fb7-4251-a03c-55820b0d9f92.png)
 
-***STAGE 4: pushing the helm charts to nexus***
+STAGE 4: pushing the helm charts to nexus
+
 1: i will gonna copy api so which push my helm charts on to the nexus.
+
      curl -u admin:$docker_password http://34.125.214.226:8081/repository/helm-hosted/ --upload-file myapp-${helmversion}.tgz -v
+     
+     
  2:- i will put docker pasword and nexus machine ip thats all
+ 
  3: once this is done the repository helm hosted make sure that whether your repository name itself or not
+ 
  4:- so now what we can do is we can version our file properly before pushing it so versioning what i  do is 
  
- ***STAGE 5: Deploying Application on  K8s cluster***
- ***Once push  is done we need to deploy helm charts into k8s cluster so thats means were deploying k8s manifest file on to the k8s cluster so for that what we need to do is we need to do few thing one as from the jenkins host i need to connect my k8s cluster other thing is in the k8s cluster I want to pull the images in my private repository so for we need to do few configration and also plugin also we need to install and also in the configration time you need to install kubectl in jenkins host
- and on  more thing in k8s cluster  for that what you need to do is go to k8s master and login in master and go to .kube folder of our users home directory and taken  cat config file this config file that we  required connect k8s cluster and after copy put in jenkins***
+ STAGE 5: Deploying Application on  K8s cluster
+ 
+ Once push  is done we need to deploy helm charts into k8s cluster so thats means were deploying k8s manifest file on to the k8s cluster so for that what we need to do is we need to do few thing one as from the jenkins host i need to connect my k8s cluster other thing is in the k8s cluster I want to pull the images in my private repository so for we need to do few configration and also plugin also we need to install and also in the configration time you need to install kubectl in jenkins host
+ and on  more thing in k8s cluster  for that what you need to do is go to k8s master and login in master and go to .kube folder of our users home directory and taken  cat config file this config file that we  required connect k8s cluster and after copy put in jenkins
 
 The next stage would be after the deployment I want to Verify whether my application is coming up or not those are the two stages I want to added in my pipeline .
 Once approval is done then only it has  to be deployed.
 Before deployment i want to add manual approval  part.
 
-***STAGE 6: Manual Approval***
+STAGE 6: Manual Approval
+
 I want to give little  time kind of as soon as I send a request , They might be not approved , and also I don't want to wait for long time for example i want to give 10 minute of time limit were an like   with in that they want to approval for that i can do snippet genrator where search like timeout and take it , put it your code
 10 minutes time for the approvers to approve this particular deployment if they don't approved it will be abort it.
 and now next thing i want to send email which will have a build link also when they open that build link they should be able to approve the request.
 
-***STAGE 7: Verifying App Deployment ***
+STAGE 7: Verifying App Deployment 
 
 I will create a another stage block which is verifying app deployment so see this is because once helm charts is done i want to verifying my application so that's why i am adding this so i added two stages on eis manual approval before the deployment and after the deployment I want  to verify my application is whether running or not ? so if exit when it executes if the exit status is 0 thats means it will gonna successfully rcome out of the stage and it will send success mail and if it's not working so the exit status will be non zero value it will gonna failed my pipleine so that is the logic here .
 
@@ -324,7 +348,7 @@ Manual approval for Email output:
 
 ![gdhffhgf](https://user-images.githubusercontent.com/122585172/230610971-f6979542-15d3-4b27-80af-4d3b614ef53e.png)
 
-Deploying application on k8s cluster output:V
+Deploying application on k8s cluster output:
 
 ![reytry](https://user-images.githubusercontent.com/122585172/230611450-e6a793d2-ab99-497c-87f6-668aabf38843.png)
 
@@ -340,4 +364,4 @@ Application output deployed in k8s:
   
   
 
- GFHGF
+ 
