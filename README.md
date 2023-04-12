@@ -153,7 +153,8 @@ datree test <your_kubernetes_manifest_YAML_NAME>
 
 6:- Here you have add the authentication token just click on that
 
-![PROJECT3CICD](https://user-images.githubusercontent.com/122585172/223027572-9ba09b85-5dd9-451e-b226-2890f0ff6b57.png)
+
+![12 04 2023_17 48 06_REC](https://user-images.githubusercontent.com/122585172/231454838-57d65a2b-ce55-4c03-a9a4-e7d4f096e538.png)
 
 7:- Here you have provide some secreat so how will we get that, Go to sonarqube go to administration and got to security option and then  genrate token 
 
