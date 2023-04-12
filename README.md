@@ -178,14 +178,15 @@ datree test <your_kubernetes_manifest_YAML_NAME>
 
 so this is all about the configrtaion between sonarqube and jenkins 
 
+![12 04 2023_18 02 31_REC](https://user-images.githubusercontent.com/122585172/231458522-b33f6607-b85a-4d55-becf-08efcc9d7942.png)
 
-![rt](https://user-images.githubusercontent.com/122585172/223031332-3cb60957-2697-4954-aae8-7fbca0ae75b2.png)
+
 
 11:- Now what you need jenkins should authenticate so create new job and give some meaningfull name and then select pipeline option after give job name
 
 
+![12 04 2023_18 07 45_REC](https://user-images.githubusercontent.com/122585172/231459710-b1e89258-f86c-4151-8f06-478aedc16ff3.png)
 
-![yi](https://user-images.githubusercontent.com/122585172/223032038-139f97f1-3e98-4f5b-acfe-61d0167d7e92.png)
 
 12:- once this is done you have just to go back and here instead of kepping of my pipeline script here what we will do I will take it from my github so select pipeline scm instead of scm i will choose git and then git you have to put github repo url
 
