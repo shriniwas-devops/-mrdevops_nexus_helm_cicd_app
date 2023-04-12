@@ -169,12 +169,12 @@ datree test <your_kubernetes_manifest_YAML_NAME>
 
 9:- add sonartoken once this is done then apply and save
 
-![rf](https://user-images.githubusercontent.com/122585172/223029529-28712b5b-8771-428c-bb34-abf58a42af0f.png
+![12 04 2023_17 57 15_REC](https://user-images.githubusercontent.com/122585172/231456834-5935d701-b867-4e42-b549-afa856d320e2.png)
 
 10:- One more thing what you have to do just go sonarqube and second thing go to configration here we will do two way handcheck first one jenkins will authenticate sonarqube token and second is sonarqube send logs confermation to jenkins and then go to configration and select webhook and you just need add jenkins url make sure 
 
-![as](https://user-images.githubusercontent.com/122585172/223030593-78415166-a58d-4918-a33b-7753465f2a2e.png)
 
+![12 04 2023_18 02 31_REC](https://user-images.githubusercontent.com/122585172/231458522-b33f6607-b85a-4d55-becf-08efcc9d7942.png)
 
 so this is all about the configrtaion between sonarqube and jenkins 
 
