@@ -123,7 +123,8 @@ chmod 700 get_helm.sh
 
 ./get_helm.sh
 
-![qwe](https://user-images.githubusercontent.com/122585172/223353379-cdf3268a-192d-41da-8cc5-1226bc5b2cca.png)
+
+![12 04 2023_17 32 58_REC](https://user-images.githubusercontent.com/122585172/231451506-8cacc7c4-b78f-483e-9a28-5c7cd8c03acd.png)
 
 
 ***step 07:- datree.io installtion***
