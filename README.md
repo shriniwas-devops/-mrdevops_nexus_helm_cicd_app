@@ -68,7 +68,7 @@ Instead of whole step  follow installtion of sonarqube what you will do you will
   for sonarqube server you will long configration you much do  database and all in order install sonarqube so for the easy way what you will doing you will donig docker conatiner for the sonarqube access.
   
   
-![12 04 2023_17 13 09_REC](https://user-images.githubusercontent.com/122585172/231447471-0a4839e9-43eb-4802-bc6d-dc98ad5324a8.png)
+![12 04 2023_17 15 22_REC](https://user-images.githubusercontent.com/122585172/231447745-cbb5351f-4467-49be-8927-4ecf25a55df6.png)
 
 ***step 03:- Nexus Repository installtion
 for nexus you can follow this:-
