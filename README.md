@@ -101,8 +101,9 @@ sudo -u nexus /opt/nexus/bin/nexus start
 ***step 04:- you must  do server setup master(k8s) and worknode(k8s) for kubernetes***
 for this you can follow link:- https://www.youtube.com/watch?v=o6bxo0Oeg6o
 
-![vbvcn](https://user-images.githubusercontent.com/122585172/223349891-f3709a38-0c65-4b4c-9d14-436253d35306.png)
 
+
+![12 04 2023_17 26 35_REC](https://user-images.githubusercontent.com/122585172/231449983-8edf3176-1b32-4515-911b-2240d30a9a98.png)
 
 ***step 04: Make sure you must have dockerhub account for finding conatiner images .
 
