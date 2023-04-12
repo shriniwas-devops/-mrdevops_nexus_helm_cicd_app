@@ -94,7 +94,9 @@ you can put nexus as a user
 for start nexus you will do
 sudo -u nexus /opt/nexus/bin/nexus start
 
-![tytr](https://user-images.githubusercontent.com/122585172/223345481-e18df0ad-4649-4128-b744-53ecf16dbae6.png)
+
+![12 04 2023_17 20 40_REC](https://user-images.githubusercontent.com/122585172/231448731-7d0d105c-da12-4da7-a38d-a59deabbd9d3.png)
+
 
 ***step 04:- you must  do server setup master(k8s) and worknode(k8s) for kubernetes***
 for this you can follow link:- https://www.youtube.com/watch?v=o6bxo0Oeg6o
