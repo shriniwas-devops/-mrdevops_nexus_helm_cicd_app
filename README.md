@@ -190,7 +190,8 @@ so this is all about the configrtaion between sonarqube and jenkins
 
 12:- once this is done you have just to go back and here instead of kepping of my pipeline script here what we will do I will take it from my github so select pipeline scm instead of scm i will choose git and then git you have to put github repo url
 
-![io](https://user-images.githubusercontent.com/122585172/223033540-f46ba23d-4f06-46b1-9378-11c1ee05645e.png)
+
+![12 04 2023_18 11 44_REC](https://user-images.githubusercontent.com/122585172/231460721-dfc0525b-2aa0-4f66-8df9-39ebf8d73f9e.png)
 
 13:- you just have to genrate some pipeline script, you have just hit on sonarqubeEnv and then  you have to select  the authentication which you have configure write token  and genrate script
 
