@@ -190,7 +190,9 @@ so this is all about the configrtaion between sonarqube and jenkins
  
 15:-Configure nexus server in jenkins server
 
-![TYR](https://user-images.githubusercontent.com/122585172/223622821-26be6a61-444f-4d29-b91c-e291a2e1fdea.png)
+
+![RTERTE](https://user-images.githubusercontent.com/122585172/231445016-1c9df741-98c1-4b6c-9b87-46c31498b952.png)
+
 
 16:- configration mail server in jenkins
 first thing you have to do ,you have installed email extension and then configure your email extension
