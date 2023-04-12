@@ -56,7 +56,8 @@ docker installation is here :- https://docs.docker.com/engine/install/ubuntu/
 
  4:-go to manage jenkins > manage pulgins > search for plugins > install without restart
 
-![cicdproject2](https://user-images.githubusercontent.com/122585172/223018773-9e57409c-e0c8-48d1-b724-7a0e755cad37.png)
+
+![12 04 2023_17 13 09_REC](https://user-images.githubusercontent.com/122585172/231446875-4d984f89-f7ad-4673-812e-ef1c7da8987c.png)
 
 ***step 02:-SonarQube Server Installation***
 
