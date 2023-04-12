@@ -158,7 +158,8 @@ datree test <your_kubernetes_manifest_YAML_NAME>
 
 7:- Here you have provide some secreat so how will we get that, Go to sonarqube go to administration and got to security option and then  genrate token 
 
-![fgdgfrgr](https://user-images.githubusercontent.com/122585172/223028525-bdb1162c-f63d-4a8a-9dbc-2a90b1629e60.png)
+
+![12 04 2023_17 50 48_REC](https://user-images.githubusercontent.com/122585172/231455488-65a08e69-cd4b-4ef4-90f4-3792544f03b6.png)
 
 8:- Genrated sonarqube token make sure you put it jenkins secreat section and give meaningfull name 
 
