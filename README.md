@@ -163,7 +163,8 @@ datree test <your_kubernetes_manifest_YAML_NAME>
 
 8:- Genrated sonarqube token make sure you put it jenkins secreat section and give meaningfull name 
 
-![rf](https://user-images.githubusercontent.com/122585172/223028952-59cb89b4-4429-4152-8f4e-4c2cc5b45c08.png)
+![12 04 2023_17 53 28_REC](https://user-images.githubusercontent.com/122585172/231456021-fe2a015d-88b1-4048-928a-bdf40f549472.png)
+
 
 9:- add sonartoken once this is done then apply and save
 
