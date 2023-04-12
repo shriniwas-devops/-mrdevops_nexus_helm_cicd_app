@@ -197,7 +197,8 @@ so this is all about the configrtaion between sonarqube and jenkins
 16:- configration mail server in jenkins
 first thing you have to do ,you have installed email extension and then configure your email extension
 
-![gfj](https://user-images.githubusercontent.com/122585172/223624041-d6ec387b-51f0-4bd6-9516-572df5fd1b39.png)
+![ERTRETERT](https://user-images.githubusercontent.com/122585172/231445856-def39b45-67e9-4902-8d86-bc7dc98c1725.png)
+
 
 17:- also which ever the mail you use for authentication in that mail setting "Less secure apps access" should be enabled
 
